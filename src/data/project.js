@@ -2,6 +2,8 @@ import Chatapp from '../assets/project/Chatapp.png'
 import AI from '../assets/project/AI.png'
 import Todo from '../assets/project/todoapp.png'
 import AI2 from '../assets/project/AI2.jpg'
+import Snapchat from  '../assets/project/snapchat.png'
+
 
 export const project=[
     {
@@ -25,13 +27,19 @@ export const project=[
         github:"https://github.com/pukarlamichhane/todolist",
         live:"https://todoapp16.netlify.app",
     },
-
     {
         id:4,
         name:"Image Genterator using OpenAI",
         image:AI2,
         github:"https://github.com/pukarlamichhane/imagegenerator",
         live:"https://gentle-monstera-b5255a.netlify.app",
+    },
+    {
+        id:5,
+        name:"Snapchat clone",
+        image:Snapchat,
+        github:"https://github.com/pukarlamichhane/snapchat",
+        live:"https://snapchat-xi.vercel.app/",
     }
 
 
