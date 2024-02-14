@@ -23,8 +23,8 @@ const Home = () => {
          <a href={Resume} download='resume.pdf'>Download Resume</a>
         </button>
         <div className='flex justify-center flex-row gap-3'>
-          <a href='https://github.com/pukarlamichhane' target='_blank' className='w-10 h-10 bg-[#0a192f] rounded-full border border-pink-500 flex items-center justify-center' rel="noreferrer"><FaGithub size={30}/></a>
-          <a href='https://www.linkedin.com/in/pukar-lamichhane-047209258/' target='_blank' className='w-10 h-10 bg-[#0a192f] rounded-full border border-pink-500 flex items-center justify-center' rel="noreferrer"><FaLinkedinIn size={30} /></a>
+          <a href='https://github.com/pukarlamichhane' target='_blank' className='w-10 h-10 bg-[#0a192f] rounded-full border border-pink-500 flex items-center justify-center hover:bg-pink-600 hover:border-pink-600 rounded text-sm' rel="noreferrer"><FaGithub size={30}/></a>
+          <a href='https://www.linkedin.com/in/pukar-lamichhane-047209258/' target='_blank' className='w-10 h-10 bg-[#0a192f] rounded-full border border-pink-500 flex items-center justify-center hover:bg-pink-600 hover:border-pink-600 rounded text-sm' rel="noreferrer"><FaLinkedinIn size={30} /></a>
         </div>
       </div>
     </div>
